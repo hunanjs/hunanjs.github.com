@@ -1,0 +1,50 @@
+slogan: "湖南前端交流群[614589365]."
+
+theme: cerulean
+inverse: true
+
+menu:
+  - title: 首页
+    url: ""
+    icon: "fa fa-home"
+  - title: 归档
+    url: archives
+    icon: "fa fa-archive"
+  - title: 关于
+    url: about
+    icon: "fa fa-user"
+
+links:
+  - title: Hunanjs
+    url: https://github.com/hunanjs
+    intro: "Hunanjs's Github."
+    icon: "fa fa-github"
+   
+
+widgets:
+- search
+- category
+- tagcloud
+- recent_posts  
+- links
+
+rss: 
+fancybox: true
+favicon: favicon.png
+duoshuo_shortname: hunanjs
+
+# Analytics
+google_analytics:
+  enable: false
+  siteid:
+baidu_tongji:
+  enable: true
+  siteid: 2aef269f0f7834b11c0ddc56a64c4d37
+
+# search
+# swiftype_key: ZP2ZSuHgipSZfRyU8uTR
+
+# share widgets
+bdshare: true
+jiathis: false
+
