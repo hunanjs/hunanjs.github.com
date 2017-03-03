@@ -1,3 +1,7 @@
+.page h3.title-top {
+  background-color: #fbdedb;
+  border-top: 3px solid #ef8b80;
+}
 /*!
  * Bootstrap v3.3.6 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -1055,7 +1059,6 @@ th {
 .glyphicon-menu-up:before {
   content: "\e260";
 }
-
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1935,7 +1938,7 @@ pre code {
     width: 83.33333333%;
   }
   .col-md-9 {
-    width: 73.5%;
+    width: 75%;
   }
   .col-md-8 {
     width: 66.66666667%;
@@ -1953,7 +1956,7 @@ pre code {
     width: 33.33333333%;
   }
   .col-md-3 {
-    width: 26.5%;
+    width: 25%;
   }
   .col-md-2 {
     width: 16.66666667%;
@@ -5041,9 +5044,6 @@ a.thumbnail.active {
 .alert-success {
   background-color: #dff0d8;
   border-color: #d6e9c6;
-  padding: 7px;
-  margin-top: 10px;
-  margin-bottom: 20px;
   color: #468847;
 }
 .alert-success hr {
@@ -5432,7 +5432,7 @@ button.list-group-item-danger.active:focus {
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 }
-.panel-body2 {
+.panel-body {
   padding: 15px;
 }
 .panel-heading {
@@ -6924,4 +6924,8 @@ a:hover {
 }
 .container-narrow > footer p {
   background-color: #f5f5f5;
+}
+blockquote {
+  border-left: 5px solid #eeeeee;
+  font-size: 17.5px;
 }

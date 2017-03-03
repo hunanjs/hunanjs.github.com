@@ -18,12 +18,10 @@
 
   
   
-    <link href="/favicon.ico" rel="icon">
+    <link href="/favicon.png" rel="icon">
   
 
   <!-- CSS -->
-
-
   <link rel="stylesheet" href="/css/themes/cerulean.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/font-awesome.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
@@ -33,21 +31,20 @@
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
   <script src="/js/jquery-2.0.3.min.js"></script>
-  <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
 
   <!-- analytics -->
   
 
 
-	<script>
-	var _hmt = _hmt || [];
-	(function() {
-	  var hm = document.createElement("script");
-	  hm.src = "//hm.baidu.com/hm.js?2aef269f0f7834b11c0ddc56a64c4d37";
-	  var s = document.getElementsByTagName("script")[0]; 
-	  s.parentNode.insertBefore(hm, s);
-	})();
-	</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?2aef269f0f7834b11c0ddc56a64c4d37";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
 
 
 </head>
@@ -64,24 +61,28 @@
        <a class="navbar-brand" href="/">HunanJS</a>
       <div class="collapse navbar-collapse nav-menu">
 		<ul class="nav navbar-nav">
+		 
 		  
 		  <li>
-			<a href="/" title="Home page.">
+			<a href="/" title="">
 			  <i class="fa fa-home"></i>首页
 			</a>
 		  </li>
 		  
+		  
 		  <li>
-			<a href="/archives" title="All the articles.">
-			  <i class="fa fa-archive"></i>文章归档
+			<a href="/archives" title="">
+			  <i class="fa fa-archive"></i>归档
 			</a>
 		  </li>
 		  
+		  
 		  <li>
-			<a href="/about" title="About this blog.">
-			  <i class="fa fa-info-circle"></i>关于本站
+			<a href="/about" title="">
+			  <i class="fa fa-user"></i>关于
 			</a>
 		  </li>
+		  
 		  
 		</ul>
       </div>
@@ -91,134 +92,136 @@
 
   <div class="container">
   	<div class="content">
-    	 <div class="row page">
+    	 <div class="page-header page-header-inverse ">
+  <h1 class="title title-inverse ">湖南前端交流群 614589365</h1>
+</div>
+
+<div class="row page">
 
 	
 	<div class="col-md-9">
 	
 
-		<div class="slogan" style="margin-bottom: 17px">
-      <h4 style="margin-top: 0;color: #333;font-size:15px;font-weight: normal;">当前位置 ： 首页</h4>
+		<div class="slogan">
+      <i class="fa fa-heart"></i>
+      湖南前端交流群[614589365].
 </div>    
 		<div id="top_search"></div>
+		<div class="mypage">
 		
 		<!-- title and entry -->
+        <!-- render top articles firstly -->
+        
 		
-            <div class="archive">	  
-				<div id="archives"> 
-				
-					<header class="entry-header">
-						<div class="entry-info" text-transform : capitalize>				     					      	      
-							
-							  <span class="entry-date">
-								  <span class="fa fa-calendar" aria-hidden="true"></span>
-								  2017-02-24						      
-							  </span>
-							  
-							  <span class="author vcard">
-								  <span class="fa fa-user" aria-hidden="true"></span>
-								  <a href="/">hunanjs</a> 	
-							  </span>
+            
+		
+        
+        <!-- render other articles -->
+        
+           
+			  
+	
+	<!-- display as entry -->	
+		<h3 class="title">
+			<div class="date"> 2017-02-24 </div>
+			<div class="article-title"><a href="/2017/02/24/hello-world/" >Hello World</a></div>						
+		</h3>
+	
 
 
-
-							<span class="comments-link">
-								<span class="fa fa-comments" aria-hidden="true"></span>
-								<span class="ds-thread-count" data-thread-key="2017/02/24/hello-world/">暂无评论</span>
-							</span>	
-							
-						</div>	
-									
-						<h3 class="entry-title"> 
-							  <a href="/2017/02/24/hello-world/" >Hello World</a>
-						</h3>
-
-					</header>
-
-					<div class="entry">
+			  <div class="entry">
   <div class="row">
 	
 	
 		<p>湖南前端交流群 614589365<br>2017我们来了~</p>
 
 	
-	...</div>
+	</div>
 </div>
 
-
-					<footer class="entry-meta">					  
-						<a href="/2017/02/24/hello-world/" class="more-link"><span class="fa fa-link" aria-hidden="true"></span>  阅读全文</a>	
-					</footer>
-
-				</div>	
-
-             </div>
+           
 		
+
+		</div>
 
 		<!-- pagination -->
 		<div>
-			<center>
-			
+  		<center>
+		<div class="pagination">
+<ul class="pagination">
+	 
+</ul>
+</div>
 
-
-			</center>
+  		</center>
 		</div>
+
+		
 		
 	</div> <!-- col-md-9 -->
 
 	
 		<div class="col-md-3">
 	<div id="sidebar">
+	
+			
+  <div id="site_search">
+   <div class="form-group">
+    <input type="text" id="local-search-input" name="q" results="0" placeholder="搜索" class="st-search-input st-default-search-input form-control"/>
+   </div>  
+  <div id="local-search-result"></div>
+  </div>
+
+
 		
-				
-  <div class="form-group has-success has-feedback" id="site_search">
-    <form class="site-search-form">
-        <input type="text" id="st-search-input" name="q" results="0" placeholder="搜索" class="st-search-input st-default-search-input form-control" />
-    </form>
-  </div>  
+			
+		
+			
 
+		
 			
-				
-			
-				
-
-			
-				
 <div class="widget">
-	<h4 style="font-weight: bold; color: #333;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif">友情链接</h4>
+  <h4>最新文章</h4>
+  <ul class="entry list-unstyled">
+    
+      <li>
+        <a href="/2017/02/24/hello-world/" ><i class="fa fa-file-o"></i>Hello World</a>
+      </li>
+    
+  </ul>
+</div>
+
+		
+			
+<div class="widget">
+	<h4>链接</h4>
 	<ul class="blogroll list-unstyled">
 	
-		<li style="font-size:14px"><i class="fa fa-share"></i><a href="http://hexo.io" title="My Linkin account." target="_blank"]);">Hexo</a></li>
+		<li><i class="fa fa-github"></i><a href="https://github.com/hunanjs" title="Hunanjs's Github." target="_blank"]);">Hunanjs</a></li>
 	
 	</ul>
 </div>
 
 
-			  
+		
 	</div> <!-- sidebar -->
 </div> <!-- col-md-3 -->
 
 	
 	
 </div> <!-- row-fluid -->
+
+
 	</div>
   </div>
   <div class="container-narrow">
   <footer> <p>
-  hunanjs &copy; 2013-2017.
+  &copy; 2017 hunanjs
   
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a>.    
 </p> </footer>
 </div> <!-- container-narrow -->
   
-  <script type="text/javascript">
-  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
-    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
-
-  _st('install', 'YYG5W2xNQTns7U8J3YqW','2.0.0');
-  </script>
-
 
 
   
