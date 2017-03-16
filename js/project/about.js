@@ -40,6 +40,9 @@
                          $.get('/data/hero.json',function (result) {
                              self['hero'] = result;
                          });
+                        /*$.get('https://api.github.com/orgs/hunanjs/members',function (result) {
+                            self['hero'] = result;
+                        });*/
                     }
                 }
             })
