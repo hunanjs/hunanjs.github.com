@@ -6,15 +6,19 @@
   <title>英雄榜 | HunanJS</title>
   <meta name="author" content="hunanjs">
   
-  <meta name="description" content="var tplUserList =
+  <meta name="description" content="JOIN
+                
+            
+        
+    
+
+
+    var tplUserList =
         `
             
                 .
                 
-                    
-                    
-                        
-       ">
+                   ">
   
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -133,6 +137,7 @@ var _hmt = _hmt || [];
                     <div class="article-city-inner">
                         <all-user-list :all-user-info="hero"></all-user-list>
                     </div>
+                    <a class="join animated" href="https://github.com/hunanjs/hunanjs.github.io/issues/1" target="_blank">JOIN</a>
                 </div>
             </div>
         </div>
@@ -144,7 +149,7 @@ var _hmt = _hmt || [];
             <li v-for="(item, index) in allUserInfo">
                 <div class="user-title"><h2><em class="no" v-text="index+1">.</em><a :href="item.blog" target="_blank" v-text="item.login"></a></h2></div>
                 <div class="userinfo-content">
-                    <a class="userinfo-img" :href="item.blog" target="_blank"><img :src="item.avatar_url" alt=""></a>
+                    <a class="userinfo-img" :href="item.blog" target="_blank"><img :src="item.avatar" alt=""></a>
                     <div class="desc">
                         <dl class="desc-info">
                             <dd><a :href="item.blog" target="_blank">博客</a></dd>

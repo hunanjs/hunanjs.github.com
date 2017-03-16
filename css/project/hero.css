@@ -136,4 +136,46 @@
 .article-city {
   padding-top: 10px;
 }
+.join{
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  padding: 3px 15px;
+  background: #044c92;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
 
+.animated{
+  animation-name:flash;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function:ease;
+  animation-timing-function:ease;
+}
+
+@-webkit-keyframes flash {
+  0%{
+    color: #ffffff;
+  }
+  100% {
+    color: rgba(255,255,255,.3);
+  }
+}
+
+@keyframes flash {
+  0%{
+    color: #ffffff;
+  }
+  100% {
+    color: rgba(255,255,255,.3);
+  }
+}
+
+.flash {
+  -webkit-animation-name: flash;
+  animation-name: flash
+}
